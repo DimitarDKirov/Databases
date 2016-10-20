@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:exam="http://www.telerikacademy.com/exams" xmlns:urn="http://www.telerikacademy.com/students">
+  <xs:element name="students">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="student" maxOccurs="unbounded">
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="student">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"></xs:element>
+        <xs:element name="sex" type="xs:string"></xs:element>
+        <xs:element name="birthDate" type="xs:date"></xs:element>
+        <xs:element name="phone" type="xs:unsignedInt"></xs:element>
+        <xs:element name="email" type="xs:string"></xs:element>
+        <xs:element name="course" type="xs:int"></xs:element>
+        <xs:element name="specialty" type="xs:string"></xs:element>
+        <xs:element name="facultyNumber" type="xs:unsignedInt"></xs:element>
+        <xs:element ref="exams"></xs:element>
+        <xs:element ref="enrollment"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="exams">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="exam" maxOccurs="unbounded"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="exam">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"></xs:element>
+        <xs:element name="tutor" type="xs:string"></xs:element>
+        <xs:element name="score" type="xs:decimal"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="enrollment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="date" type="xs:date"></xs:element>
+        <xs:element name="examScore" type="xs:decimal"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
