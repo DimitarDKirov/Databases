@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<urn:students xmlns:urn="http://www.telerikacademy.com/students"
+              xmlns:exam="http://www.telerikacademy.com/exams"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.telerikacademy.com/students file:students.xsd">
+  <urn:student>
+    <urn:name>Peter Ivanov</urn:name>
+    <urn:sex>Male</urn:sex>
+    <urn:birthDate>12.12.1980</urn:birthDate>
+    <urn:phone>0899999999</urn:phone>
+    <urn:email>peter@abv.bg</urn:email>
+    <urn:course>3</urn:course>
+    <urn:specialty>Computer Sciences</urn:specialty>
+    <urn:facultyNumber>990011</urn:facultyNumber>
+    <urn:exams>
+      <exam:exam>
+        <exam:name>Object-Oriented Programming</exam:name>
+        <exam:tutor>prof. Angel Ivanov</exam:tutor>
+        <exam:score>5.5</exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>Modern Web design with HTML 5</exam:name>
+        <exam:tutor>ass. Vanq Petrova</exam:tutor>
+        <exam:score>4.67</exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>Styling woth CSS 3</exam:name>
+        <exam:tutor>ass. Andrej Kostov</exam:tutor>
+        <exam:score>4.23</exam:score>
+      </exam:exam>
+    </urn:exams>
+  </urn:student>
+  <urn:student>
+    <urn:name>Mariq Dimova</urn:name>
+    <urn:sex>Female</urn:sex>
+    <urn:birthDate>20.02.1995</urn:birthDate>
+    <urn:phone>088888888</urn:phone>
+    <urn:email>mariq@gmai.com</urn:email>
+    <urn:course>1</urn:course>
+    <urn:specialty>Computer Engineering</urn:specialty>
+    <urn:facultyNumber>100101</urn:facultyNumber>
+    <urn:exams>
+      <exam:exam>
+        <exam:name>Programming with C++</exam:name>
+        <exam:tutor>prof. Angel Ivanov</exam:tutor>
+        <exam:score>4.8</exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>Electronics</exam:name>
+        <exam:tutor>prof. eng. Dimo Petrov</exam:tutor>
+        <exam:score>5.23</exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>Technical Documentation</exam:name>
+        <exam:tutor>eng. Vasil Ivanov</exam:tutor>
+        <exam:score>5.88</exam:score>
+      </exam:exam>
+    </urn:exams>
+  </urn:student>
+  <urn:student>
+    <urn:name>Kostadin Dimitrov</urn:name>
+    <urn:sex>Male</urn:sex>
+    <urn:birthDate>03.03.1990</urn:birthDate>
+    <urn:phone>08777777</urn:phone>
+    <urn:email>kosta@yahoo.com</urn:email>
+    <urn:course>2</urn:course>
+    <urn:specialty>Computer Sciences</urn:specialty>
+    <urn:facultyNumber>080801</urn:facultyNumber>
+    <urn:exams>
+      <exam:exam>
+        <exam:name>Object-Oriented Programming</exam:name>
+        <exam:tutor>prof. Angel Ivanov</exam:tutor>
+        <exam:score>3.3</exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>Modern Web design with HTML 5</exam:name>
+        <exam:tutor>ass. Vanq Petrova</exam:tutor>
+        <exam:score>5.44</exam:score>
+      </exam:exam>
+    </urn:exams>
+  </urn:student>
+</urn:students>
