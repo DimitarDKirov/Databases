@@ -84,7 +84,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="items.xml" />
-    <Content Include="itemsNew.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

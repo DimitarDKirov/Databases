@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <album>
+    <name>Have a Nice Day</name>
+    <artist>Bon Jovi</artist>
+    <year>2005</year>
+    <producer>John Shanks</producer>
+    <price>15</price>
+    <songs>
+      <song>
+        <title>Have a Nice Day</title>
+        <duration>4:33</duration>
+      </song>
+      <song>
+        <title>I Want to Be Loved</title>
+        <duration>3:27</duration>
+      </song>
+      <song>
+        <title>Welcome to Wherever You Are</title>
+        <duration>3:47</duration>
+      </song>
+      <song>
+        <title>Who Says You Can't Go Home</title>
+        <duration>5:21</duration>
+      </song>
+      <song>
+        <title>Last Man Standing</title>
+        <duration>3:02</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Zooropa</name>
+    <artist>U2</artist>
+    <year>1993</year>
+    <producer> Brian Eno</producer>
+    <price>21</price>
+    <songs>
+      <song>
+        <title>Babyface</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>Lemon</title>
+        <duration>3:56</duration>
+      </song>
+      <song>
+        <title>Stay (Faraway, So Close!)</title>
+        <duration>4:22</duration>
+      </song>
+      <song>
+        <title>Daddy's Gonna Pay for Your Crashed Car</title>
+        <duration>3:48</duration>
+      </song>
+      <song>
+        <title>The First Time</title>
+        <duration>3:15</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>A Kind of Magic</name>
+    <artist>Queen</artist>
+    <year>1986</year>
+    <producer>Mack</producer>
+    <price>23</price>
+    <songs>
+      <song>
+        <title>One Vision</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>A Kind of Magic</title>
+        <duration>3:48</duration>
+      </song>
+      <song>
+        <title>One Year of Love</title>
+        <duration>4:25</duration>
+      </song>
+      <song>
+        <title>Pain Is So Close to Pleasure</title>
+        <duration>4:55</duration>
+      </song>
+      <song>
+        <title>Friends Will Be Friends</title>
+        <duration>3:48</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Symphony 35, 40, 41</name>
+    <artist>Wolfgang Amadeus Mozart</artist>
+    <year>2001</year>
+    <producer>Vienna State Opera</producer>
+    <price>35</price>
+    <songs>
+      <song>
+        <title>Symphony 35</title>
+        <duration>15:31</duration>
+      </song>
+      <song>
+        <title>Symphony 40</title>
+        <duration>21:15</duration>
+      </song>
+      <song>
+        <title>Symphony 41</title>
+        <duration>18:37</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Symphony in piano</name>
+    <artist>Wolfgang Amadeus Mozart</artist>
+    <year>2001</year>
+    <producer>Vienna State Opera</producer>
+    <price>19</price>
+    <songs>
+      <song>
+        <title>Symphony 35</title>
+        <duration>15:31</duration>
+      </song>
+      <song>
+        <title>Symphony 40</title>
+        <duration>21:15</duration>
+      </song>
+      <song>
+        <title>Symphony 41</title>
+        <duration>18:37</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>
