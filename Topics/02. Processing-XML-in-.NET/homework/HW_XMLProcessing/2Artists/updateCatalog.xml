@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <album>
+    <name>Have a Nice Day</name>
+    <artist>Bon Jovi</artist>
+    <year>2005</year>
+    <producer>John Shanks</producer>
+    <price>15</price>
+    <songs>
+      <song>
+        <title>Have a Nice Day</title>
+        <duration>4:33</duration>
+      </song>
+      <song>
+        <title>I Want to Be Loved</title>
+        <duration>3:27</duration>
+      </song>
+      <song>
+        <title>Welcome to Wherever You Are</title>
+        <duration>3:47</duration>
+      </song>
+      <song>
+        <title>Who Says You Can't Go Home</title>
+        <duration>5:21</duration>
+      </song>
+      <song>
+        <title>Last Man Standing</title>
+        <duration>3:02</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Symphony in piano</name>
+    <artist>Wolfgang Amadeus Mozart</artist>
+    <year>2001</year>
+    <producer>Vienna State Opera</producer>
+    <price>19</price>
+    <songs>
+      <song>
+        <title>Symphony 35</title>
+        <duration>15:31</duration>
+      </song>
+      <song>
+        <title>Symphony 40</title>
+        <duration>21:15</duration>
+      </song>
+      <song>
+        <title>Symphony 41</title>
+        <duration>18:37</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>
