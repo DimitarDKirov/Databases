@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. UsingEntityFrameworkModel", "UsingEntityFrameworkModel\1. UsingEntityFrameworkModel.csproj", "{183DDE58-52DE-4D81-A968-C7E580D41622}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. ExecuteSQLNativeQuery", "ExecuteSQLQuery\4. ExecuteSQLNativeQuery.csproj", "{76C86376-0B4F-489D-88AE-FFDF429D6BFA}"
@@ -12,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. JoinAndGroupDemo", "JoinAndGroupDemo\5. JoinAndGroupDemo.csproj", "{6316E358-AA75-4CFB-9235-9FF66D5B2607}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. AttachDetachEntities", "AttachDetachEntities\6. AttachDetachEntities.csproj", "{1AD20ECA-C6AF-4ECB-AB76-A213E52DD3AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testEF", "testEF\testEF.csproj", "{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +87,18 @@ Global
 		{1AD20ECA-C6AF-4ECB-AB76-A213E52DD3AD}.Release|Mixed Platforms.Build.0 = Release|x86
 		{1AD20ECA-C6AF-4ECB-AB76-A213E52DD3AD}.Release|x86.ActiveCfg = Release|x86
 		{1AD20ECA-C6AF-4ECB-AB76-A213E52DD3AD}.Release|x86.Build.0 = Release|x86
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Debug|x86.Build.0 = Debug|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Release|x86.ActiveCfg = Release|Any CPU
+		{1019B9E8-C63A-48CB-A2B9-2B81F791B25E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
