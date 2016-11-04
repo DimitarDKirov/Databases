@@ -49,14 +49,14 @@ namespace HW_EFCodeFirst.Migrations
             context.Students.AddOrUpdate(s => s.Name, students);
             context.Courses.AddOrUpdate(c => c.Name, courses);
 
-            var homemork = new Homework
-            {
+            var homework = new Homework
+            { 
                 Content = "...files..",
                 TimeSent = new DateTime(2016, 11, 02),
-                Course = courses[0],
-                Student = students[0]
+                CourseId=courses[0].Id,
+                StudentId = students[0].Id
             };
-            context.Homeworks.AddOrUpdate(h => h.Content, homemork);
+            context.Homeworks.AddOrUpdate(h => h.Content, homework);
         }
     }
 }

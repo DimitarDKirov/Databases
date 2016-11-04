@@ -16,6 +16,7 @@ namespace HW_EFCodeFirst
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<AcademyContext, Configuration>());
 
             var db = new AcademyContext();
+            db.Database.Log = Console.WriteLine;
             //var student = new Student
             //{
             //    Name = "Petko Todorov",
